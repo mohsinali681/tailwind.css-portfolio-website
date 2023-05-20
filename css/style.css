@@ -963,7 +963,11 @@ video {
 }
 
 .bg-image-light {
-  background-image: url('./images/bg-light.jpg');
+  background-image: url('/images/bg-light.jpg');
+}
+
+.bg-image-dark {
+  background-image: url('/images/bg-image.jpg');
 }
 
 .from-\[\#FA5252\] {
@@ -1671,7 +1675,11 @@ video {
 }
 
 .dark .dark\:bg-image-dark {
-  background-image: url('./images/bg-image.jpg');
+  background-image: url('/images/bg-image.jpg');
+}
+
+.dark .dark\:bg-image-light {
+  background-image: url('/images/bg-light.jpg');
 }
 
 .dark .dark\:fill-white {
